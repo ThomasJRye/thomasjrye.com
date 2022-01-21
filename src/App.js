@@ -5,7 +5,7 @@ import home from './Home.js';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -19,11 +19,11 @@ function App() {
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
+        <Routes>
           <Route path="/articles/Consensous" component={articles(0)}/>
           <Route path="/articles" component={articles}/>
           <Route path="/" component={home}/>
-        </Switch>
+        </Routes>
         <Footer/>
       </div>
     </Router>
