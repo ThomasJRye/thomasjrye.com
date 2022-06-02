@@ -41,7 +41,7 @@ function Header() {
                   <a href="https://thomasjrye.substack.com/">Articles</a>
                 </li>
                 <li>
-                  <Link to="/resume">Resume</Link>
+                  <a href="https://docs.google.com/document/d/1NvC5eGETWiO6tldWN5bJELB-4BShHKJ0Obl9Va9fLa8/edit?usp=sharing">Resume</a>
                 </li>
             </div>
           </ul>
