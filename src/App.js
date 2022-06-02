@@ -1,59 +1,47 @@
 import logo from './logo.svg';
 import './App.css';
-import articles from './pages/Articles.js';
-import home from './Home.js';
-
+import Home from './pages/Home.js';
+import Footer from './pages/Footer.js'
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
   Link
 } from "react-router-dom";
+import { disableBodyScroll } from 'body-scroll-lock';
 
-function App() {
-  return (
-    <Router>
-      <div>
-        <Header/>
-        
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Routes>
-          <Route path="/articles/Consensous" component={articles(0)}/>
-          <Route path="/articles" component={articles}/>
-          <Route path="/" component={home}/>
-        </Routes>
-        <Footer/>
-      </div>
-    </Router>
-  );
+class App extends React.Component {
+
+
+  render() {
+    return (
+      
+      <Router >
+        <div className='App' onload="disableScroll()">
+          
+          <Header/>
+          <Home/>
+          <Footer/>
+        </div>
+      </Router>
+    );
+  }
 }
-
-
-
-
-
-
 
 function Header() {
   return (
     <div className='Header'>
       
       <nav>
-        
+      
           <ul>
               <div className='menu'>
                 <b>Thomas J. Rye</b>
-                
                 <li>
-                  <Link to="/articles">Articles</Link>
+                  <a href="https://thomasjrye.substack.com/">Articles</a>
                 </li>
                 <li>
                   <Link to="/resume">Resume</Link>
-                </li>
-                <li>
-                  <Link to="/">Home</Link>
                 </li>
             </div>
           </ul>
@@ -62,22 +50,5 @@ function Header() {
   );
 }
 
-function Footer() {
-  return (
-    <footer className='Footer'>
-      <div class="column" id="first">
-        <a href= "https://www.linkedin.com/in/thomas-rye-b08064121/" class="fa fa-linkedin"></a>
-        <a href= "https://www.instagram.com/jacobsenrye/" class="fa fa-instagram"></a>
-        <a href= "https://twitter.com/JacobsenRye" class="fa fa-twitter"></a>
-        <a href= "https://thomasjrye.medium.com/" class="fa fa-medium"></a>
-        <a href= "mailto: thomasjrye@gmail.com" class="fa fa-envelope"></a>
-      </div>
-      
-      <div className='Mail'>
-        
-      </div>
-      
-    </footer>
-  );
-}
+
 export default App;

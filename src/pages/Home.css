@@ -1,0 +1,18 @@
+.Home {
+    background: url('./images/earth-background.jpg') center center/cover no-repeat;
+    background-color: black;
+    background-size: cover;
+    position: center;
+    z-index:-3;
+    height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+
+    .Home {
+        background: url('./images/EarthMobile.jpg') fixed;
+        height: 90vh;
+    }
+}
+
+

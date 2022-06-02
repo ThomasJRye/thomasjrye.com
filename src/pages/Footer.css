@@ -1,0 +1,76 @@
+/* Change the link color to #111 (black) on hover */
+
+  
+
+
+  .Footer {
+    position:fixed;
+    padding-top: 10px;
+    display: flex;
+    bottom: 0;
+    width: 100%
+  }
+  
+  .Footer li {
+    margin-top: 0px;
+    width: 33%;
+    padding-left: 10%;
+  
+  }
+  
+  #first {
+ 
+    height: 10vh;
+    width: 100%;
+  }
+  
+  .fa-linkedin {
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 10%;
+    margin-top: 5px;
+    font-size: 40px;
+  }
+  
+  .fa-instagram {
+
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  
+  
+  .fa-twitter {
+
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  
+  .fa-github {
+
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 40px;
+  }
+  
+  .fa-medium {
+
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  
+  .fa-envelope {
+
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  
