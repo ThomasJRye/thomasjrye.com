@@ -2,7 +2,7 @@
   "name": "newapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thomasjrye.com/",
+  "homepage": "https://thomasjrye.github.io/thomasjrye/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.18.3",
