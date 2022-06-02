@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/thomasjrye/static/css/main.747e4e9c.chunk.css",
-    "main.js": "/thomasjrye/static/js/main.058078d6.chunk.js",
-    "main.js.map": "/thomasjrye/static/js/main.058078d6.chunk.js.map",
-    "runtime-main.js": "/thomasjrye/static/js/runtime-main.f310b929.js",
-    "runtime-main.js.map": "/thomasjrye/static/js/runtime-main.f310b929.js.map",
-    "static/js/2.da48dcd0.chunk.js": "/thomasjrye/static/js/2.da48dcd0.chunk.js",
-    "static/js/2.da48dcd0.chunk.js.map": "/thomasjrye/static/js/2.da48dcd0.chunk.js.map",
-    "static/js/3.fb3a8183.chunk.js": "/thomasjrye/static/js/3.fb3a8183.chunk.js",
-    "static/js/3.fb3a8183.chunk.js.map": "/thomasjrye/static/js/3.fb3a8183.chunk.js.map",
-    "index.html": "/thomasjrye/index.html",
-    "static/css/main.747e4e9c.chunk.css.map": "/thomasjrye/static/css/main.747e4e9c.chunk.css.map",
-    "static/js/2.da48dcd0.chunk.js.LICENSE.txt": "/thomasjrye/static/js/2.da48dcd0.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/thomasjrye/static/media/earth-background.7d1d2992.jpg",
-    "static/media/logo.6ce24c58.svg": "/thomasjrye/static/media/logo.6ce24c58.svg"
+    "main.css": "/thomasjrye.com/static/css/main.da3faf7f.chunk.css",
+    "main.js": "/thomasjrye.com/static/js/main.058078d6.chunk.js",
+    "main.js.map": "/thomasjrye.com/static/js/main.058078d6.chunk.js.map",
+    "runtime-main.js": "/thomasjrye.com/static/js/runtime-main.8f4ae663.js",
+    "runtime-main.js.map": "/thomasjrye.com/static/js/runtime-main.8f4ae663.js.map",
+    "static/js/2.467a1113.chunk.js": "/thomasjrye.com/static/js/2.467a1113.chunk.js",
+    "static/js/2.467a1113.chunk.js.map": "/thomasjrye.com/static/js/2.467a1113.chunk.js.map",
+    "static/js/3.fb3a8183.chunk.js": "/thomasjrye.com/static/js/3.fb3a8183.chunk.js",
+    "static/js/3.fb3a8183.chunk.js.map": "/thomasjrye.com/static/js/3.fb3a8183.chunk.js.map",
+    "index.html": "/thomasjrye.com/index.html",
+    "static/css/main.da3faf7f.chunk.css.map": "/thomasjrye.com/static/css/main.da3faf7f.chunk.css.map",
+    "static/js/2.467a1113.chunk.js.LICENSE.txt": "/thomasjrye.com/static/js/2.467a1113.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/thomasjrye.com/static/media/earth-background.7d1d2992.jpg",
+    "static/media/logo.6ce24c58.svg": "/thomasjrye.com/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f310b929.js",
-    "static/js/2.da48dcd0.chunk.js",
-    "static/css/main.747e4e9c.chunk.css",
+    "static/js/runtime-main.8f4ae663.js",
+    "static/js/2.467a1113.chunk.js",
+    "static/css/main.da3faf7f.chunk.css",
     "static/js/main.058078d6.chunk.js"
   ]
 }
