@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home.js';
-import Footer from './pages/Footer.js'
+import Footer from './pages/Footer.jsx'
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
