@@ -3,7 +3,7 @@ import Home from './pages/Home.js';
 import Footer from './pages/Footer.jsx';
 import Resume from './pages/Resume.jsx';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -16,6 +16,11 @@ import {
 const App = () => {
   const location = useLocation();
 
+  useEffect(() => {
+    if (window.location.host === 'thomasjrye.com') {
+      window.location.host = 'www.thomasjrye.com';
+    }
+  }, []);
   return (
     <div className='App' onLoad="disableScroll()">
       <Header />
