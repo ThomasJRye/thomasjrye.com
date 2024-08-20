@@ -1,12 +1,75 @@
-.Home {
+.home-background {
     background: url('./images/earth-background.jpg') center center/cover no-repeat;
-    background-color: black;
-    background-size: cover;
-    position: relative;
-    z-index: -3;
-    height: 100vh;
+    z-index: 4;
 }
 
+#info {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;    
+    width: 100%;
+}
+
+#info p {
+    margin: 0 0px;        
+}
+
+.home-container {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    max-width: 75%;
+    margin: 0 auto;
+    color: #FFF;
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    z-index: 4;
+}
+
+.home-text-container {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+
+}
+
+
+.headshot {
+    height: 120px;
+    display: block;
+    margin-left: auto;
+
+    /*send riht*/
+    right: 100px;
+    float: right;
+    
+}
+h1 {
+    margin-bottom: 20px;
+    color: #FFF; /* Ensure heading is visible */
+}
+
+h2, h3, h4 {
+    color: #FFF; /* Make all headings white for readability */
+    margin-bottom: 10px;
+}
+
+.personal-info, .experience, .education, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+.job, .edu {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 @media screen and (max-width: 800px) {
     .Home {
         background: url('./images/EarthMobile.jpg') center center/cover no-repeat fixed;

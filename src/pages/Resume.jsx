@@ -4,8 +4,8 @@ import './Resume.css';
 const Resume = () => {
     return (
         <div className="resume-background" >
-            <div className="resume-container" onLoad="enableScroll()">
-                <div className="text-container" >
+            <div className="resume-container">
+                <div className="resume-text-container" >
                     <section className="personal-info">
                         <p>Software Developer with management experience. I enjoy taking on new challenges independently and in teams. Particular interest in algorithms, computer vision, and AI.</p>
                         <div className="column" id="info">

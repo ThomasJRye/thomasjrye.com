@@ -4,7 +4,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111;
 }
 
 li {
@@ -22,15 +21,15 @@ li a {
 
 }
 
-b {
+
+
+.title-name {
+  position: absolute;
   color: white;
-  float: left;
-  text-align: center;
   padding: 14px 16px;
-
-  font: 1.7em sans-serif;
-
-}
+  text-decoration: none;
+  font: 1.5em sans-serif;
+} 
 
 li a:hover {
   background-color: rgb(77, 76, 78);

@@ -26,7 +26,7 @@
     z-index: 4;
 }
 
-.text-container {
+.resume-text-container {
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
@@ -34,7 +34,6 @@
 }
 
 h1 {
-    text-align: center;
     margin-bottom: 20px;
     color: #FFF; /* Ensure heading is visible */
 }
