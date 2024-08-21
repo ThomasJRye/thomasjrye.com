@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1995f4f.chunk.css",
-    "main.js": "/static/js/main.d58ba662.chunk.js",
-    "main.js.map": "/static/js/main.d58ba662.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.21931f71.js",
-    "runtime-main.js.map": "/static/js/runtime-main.21931f71.js.map",
-    "static/js/2.fb55a77a.chunk.js": "/static/js/2.fb55a77a.chunk.js",
-    "static/js/2.fb55a77a.chunk.js.map": "/static/js/2.fb55a77a.chunk.js.map",
-    "static/js/3.86b310e2.chunk.js": "/static/js/3.86b310e2.chunk.js",
-    "static/js/3.86b310e2.chunk.js.map": "/static/js/3.86b310e2.chunk.js.map",
+    "main.css": "/static/css/main.b3ddcd18.css",
+    "main.js": "/static/js/main.c247f8ec.js",
+    "static/js/453.4becfa6e.chunk.js": "/static/js/453.4becfa6e.chunk.js",
+    "static/media/earth-background.jpg": "/static/media/earth-background.7d1d2992f2b46f9b59bc.jpg",
+    "static/media/EarthMobile.jpg": "/static/media/EarthMobile.d2bfdfa2bb35b1ea1cef.jpg",
+    "static/media/HeadShot.jpg": "/static/media/HeadShot.f1a068b78fae8777b6ae.jpg",
     "index.html": "/index.html",
-    "static/css/main.b1995f4f.chunk.css.map": "/static/css/main.b1995f4f.chunk.css.map",
-    "static/js/2.fb55a77a.chunk.js.LICENSE.txt": "/static/js/2.fb55a77a.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/static/media/EarthMobile.d2bfdfa2.jpg",
-    "static/media/HeadShot.f1a068b7.jpg": "/static/media/HeadShot.f1a068b7.jpg",
-    "static/media/Resume.css": "/static/media/earth-background.7d1d2992.jpg"
+    "main.b3ddcd18.css.map": "/static/css/main.b3ddcd18.css.map",
+    "main.c247f8ec.js.map": "/static/js/main.c247f8ec.js.map",
+    "453.4becfa6e.chunk.js.map": "/static/js/453.4becfa6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.21931f71.js",
-    "static/js/2.fb55a77a.chunk.js",
-    "static/css/main.b1995f4f.chunk.css",
-    "static/js/main.d58ba662.chunk.js"
+    "static/css/main.b3ddcd18.css",
+    "static/js/main.c247f8ec.js"
   ]
 }
