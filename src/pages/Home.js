@@ -10,7 +10,7 @@ const Home = () => {
                     {/* Personal Information Section */}
                     <section className="personal-info">
                         <img src={headshot} alt="Thomas J. Rye" className="headshot" />
-                        <h1 className="headline">Independent Full-Stack Developer</h1>
+                        <h1 className="headline">Full-Stack Developer</h1>
                         <p className="sub-headline">Building modern, scalable, and efficient solutions</p>
                         <div className="skills-location">
                             <div className="column" id="skills">
@@ -33,7 +33,7 @@ const Home = () => {
                     <section className="about-me">
                         <h2>About Me</h2>
                         <p>
-                            Hi! I'm Thomas J. Rye, a passionate full-stack developer with over 5 years of experience
+                            Hi! I'm Thomas J. Rye, a passionate full-stack developer with over 3 years of experience
                             in building and maintaining robust applications. I take pride in delivering solutions that
                             meet client needs, scale efficiently, and are easy to maintain. 
                         </p>
@@ -67,6 +67,15 @@ const Home = () => {
                         </div>
                     </section>
                     
+                    {/* Certifications Section */}
+                    <section className="certifications">
+                        <h2>Certifications</h2>
+                        <div className="certification-item">
+                            <img src="https://img.shields.io/badge/Azure%20Fundamentals-AZ--900-blue" alt="Azure Fundamentals Badge" className="certification-badge" />
+                            <p>Microsoft Certified: Azure Fundamentals</p>
+                            <a href="https://www.credly.com/badges/2ECC98640B0D66B7" target="_blank" rel="noopener noreferrer">View Certification</a>
+                        </div>
+                    </section>
                     {/* Call to Action Section */}
                     <section className="cta">
                         <h2>Let's Work Together!</h2>
@@ -74,7 +83,11 @@ const Home = () => {
                             Looking for a reliable and skilled developer for your next project? Feel free to reach out!
                             I'm available for freelance, contract, and full-time work. Let's build something great together.
                         </p>
-                        <a href="mailto:thomas@example.com" className="contact-button">Get In Touch</a>
+                        <button 
+                            onClick={() => window.location.href='https://calendly.com/thomasjrye/30min'} 
+                            className="schedule-button">
+                            Schedule a Meeting
+                        </button>                    
                     </section>
                 </div>
             </div>
