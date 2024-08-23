@@ -28,6 +28,29 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
+
+                    {/* Certifications Section */}
+                    <section className="certifications">
+                        <h2>Certifications</h2>
+                        <div className="certification-item">
+                            <img src="https://img.shields.io/badge/Azure%20Fundamentals-AZ--900-blue" alt="Azure Fundamentals Badge" className="certification-badge" />
+                            <p>Microsoft Certified: Azure Fundamentals</p>
+                            <a href="https://www.credly.com/badges/2ECC98640B0D66B7" target="_blank" rel="noopener noreferrer">View Certification</a>
+                        </div>
+                    </section>
+                    {/* Call to Action Section */}
+                    <section className="cta">
+                        <h2>Let's Work Together!</h2>
+                        <p>
+                            Looking for a reliable and skilled developer for your next project? Feel free to reach out!
+                            I'm available for freelance, contract, and full-time work. Let's build something great together.
+                        </p>
+                        <button 
+                            onClick={() => window.location.href='https://calendly.com/thomasjrye/zoom-call'} 
+                            className="schedule-button">
+                            Schedule a Meeting
+                        </button>                    
+                    </section>
                     
                     {/* About Me Section */}
                     <section className="about-me">
@@ -67,28 +90,7 @@ const Home = () => {
                         </div>
                     </section>
                     
-                    {/* Certifications Section */}
-                    <section className="certifications">
-                        <h2>Certifications</h2>
-                        <div className="certification-item">
-                            <img src="https://img.shields.io/badge/Azure%20Fundamentals-AZ--900-blue" alt="Azure Fundamentals Badge" className="certification-badge" />
-                            <p>Microsoft Certified: Azure Fundamentals</p>
-                            <a href="https://www.credly.com/badges/2ECC98640B0D66B7" target="_blank" rel="noopener noreferrer">View Certification</a>
-                        </div>
-                    </section>
-                    {/* Call to Action Section */}
-                    <section className="cta">
-                        <h2>Let's Work Together!</h2>
-                        <p>
-                            Looking for a reliable and skilled developer for your next project? Feel free to reach out!
-                            I'm available for freelance, contract, and full-time work. Let's build something great together.
-                        </p>
-                        <button 
-                            onClick={() => window.location.href='https://calendly.com/thomasjrye/30min'} 
-                            className="schedule-button">
-                            Schedule a Meeting
-                        </button>                    
-                    </section>
+                    
                 </div>
             </div>
         </div>

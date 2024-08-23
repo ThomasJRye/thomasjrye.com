@@ -17,7 +17,6 @@
 .home-container {
     background-size: cover;
     font-family: Arial, sans-serif;
-    max-width: 600px;
     margin: 0 auto;
     color: #FFF;
     height: 100vh; /* Full viewport height */
@@ -26,10 +25,10 @@
 }
 
 .home-text-container {
+    max-width: 600px;
     padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 200px;
+    margin: 0 auto;
 
 }
 
@@ -42,7 +41,8 @@
     /*send riht*/
     right: 100px;
     float: right;
-    
+    border-radius: 25px;
+
 }
 h1 {
     margin-bottom: 20px;
@@ -70,6 +70,28 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.schedule-button {
+    background-color: white;
+    color: #333; 
+    border: 2px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.schedule-button:hover {
+    background-color: #f0f0f0; 
+    border-color: #999; 
+}
+
+.schedule-button:active {
+    background-color: #e0e0e0; 
+    border-color: #888; 
+}
+
 @media screen and (max-width: 800px) {
     .Home {
         background: url('./images/EarthMobile.jpg') center center/cover no-repeat fixed;
