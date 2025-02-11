@@ -44,6 +44,15 @@
     border-radius: 25px;
 
 }
+
+hr {
+    margin: 1rem;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
 h1 {
     margin-bottom: 20px;
     color: #FFF; /* Ensure heading is visible */

@@ -23,11 +23,12 @@ const Home = () => {
                                 <h3>Location:</h3>
                                 <p>Oslo, Norway</p>
                                 <h3>Contact:</h3>
-                                <p>Email: thomas@example.com</p>
-                                <p>Phone: +47 41310683</p>
+                                <p>Email: thomasjrye@gmail.com</p>
                             </div>
                         </div>
                     </section>
+
+                    <hr />
 
                     {/* Certifications Section */}
                     <section className="certifications">
@@ -38,6 +39,9 @@ const Home = () => {
                             <a href="https://www.credly.com/badges/2ECC98640B0D66B7" target="_blank" rel="noopener noreferrer">View Certification</a>
                         </div>
                     </section>
+
+                    <hr />
+
                     {/* Call to Action Section */}
                     <section className="cta">
                         <h2>Let's Work Together!</h2>
@@ -51,6 +55,8 @@ const Home = () => {
                             Schedule a Meeting
                         </button>                    
                     </section>
+
+                    <hr />
                     
                     {/* About Me Section */}
                     <section className="about-me">
@@ -66,6 +72,8 @@ const Home = () => {
                             I'm here to help turn your ideas into reality.
                         </p>
                     </section>
+
+                    <hr />
                     
                     {/* Services Section */}
                     <section className="services">
@@ -89,7 +97,6 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-                    
                     
                 </div>
             </div>
