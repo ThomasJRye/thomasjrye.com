@@ -45,12 +45,9 @@
 
 }
 
-hr {
-    margin: 1rem;
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin: 20px 0;
+section {
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 h1 {
