@@ -8,9 +8,6 @@ const Header = () => (
         <ul className='header-menu'>
           <b className='title-name'>Thomas J. Rye</b>
           <li>
-            <Link to="/resume">Resume</Link>
-          </li>
-          <li>
             <a href="https://thomasjrye.substack.com/">Articles</a>
           </li>
           <li>
