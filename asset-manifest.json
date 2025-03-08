@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.be3612b1.css",
-    "main.js": "/static/js/main.244981ae.js",
-    "static/js/453.4becfa6e.chunk.js": "/static/js/453.4becfa6e.chunk.js",
-    "static/media/earth-background.jpg": "/static/media/earth-background.7d1d2992f2b46f9b59bc.jpg",
-    "static/media/EarthMobile.jpg": "/static/media/EarthMobile.d2bfdfa2bb35b1ea1cef.jpg",
-    "static/media/HeadShot.jpg": "/static/media/HeadShot.f1a068b78fae8777b6ae.jpg",
-    "index.html": "/index.html",
-    "main.be3612b1.css.map": "/static/css/main.be3612b1.css.map",
-    "main.244981ae.js.map": "/static/js/main.244981ae.js.map",
-    "453.4becfa6e.chunk.js.map": "/static/js/453.4becfa6e.chunk.js.map"
+    "main.css": "/thomasjrye.com/static/css/main.2697945d.css",
+    "main.js": "/thomasjrye.com/static/js/main.42ac9f3c.js",
+    "static/js/453.4becfa6e.chunk.js": "/thomasjrye.com/static/js/453.4becfa6e.chunk.js",
+    "static/media/earth-background.jpg": "/thomasjrye.com/static/media/earth-background.7d1d2992f2b46f9b59bc.jpg",
+    "static/media/EarthMobile.jpg": "/thomasjrye.com/static/media/EarthMobile.d2bfdfa2bb35b1ea1cef.jpg",
+    "static/media/HeadShot.jpg": "/thomasjrye.com/static/media/HeadShot.f1a068b78fae8777b6ae.jpg",
+    "index.html": "/thomasjrye.com/index.html",
+    "main.2697945d.css.map": "/thomasjrye.com/static/css/main.2697945d.css.map",
+    "main.42ac9f3c.js.map": "/thomasjrye.com/static/js/main.42ac9f3c.js.map",
+    "453.4becfa6e.chunk.js.map": "/thomasjrye.com/static/js/453.4becfa6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3612b1.css",
-    "static/js/main.244981ae.js"
+    "static/css/main.2697945d.css",
+    "static/js/main.42ac9f3c.js"
   ]
 }
