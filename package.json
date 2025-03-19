@@ -2,7 +2,7 @@
   "name": "thomasjrye",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomasjrye.github.io/thomasjrye.com/",
+  "homepage": "https://www.thomasjrye.com/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.18.3",
