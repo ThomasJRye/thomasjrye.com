@@ -9,20 +9,20 @@ const Home = () => {
                 <div className="home-text-container">
                     {/* Personal Information Section */}
                     <section className="personal-info">
-                        <img src={headshot} alt="Thomas J. Rye" className="headshot" />
-                        <h1 className="headline">Full-Stack Developer</h1>
-                        <p className="sub-headline">Building modern, scalable, and efficient solutions</p>
+                        <img src={headshot} alt="Oslo AI Agents" className="headshot" />
+                        <h1 className="headline">Build Your Personal AI Agent</h1>
+                        <p className="sub-headline">Custom OpenClaw AI assistants for businesses and professionals in Oslo.</p>
                         <div className="skills-location">
                             <div className="column" id="skills">
-                                <h3>Technologies I specialize in:</h3>
+                                <h3>Technologies we use:</h3>
                                 <p>
-                                    JS, React, Node.js, Python, Azure
+                                    OpenClaw, LLMs, RAG, Node.js, Python, Azure
                                 </p>
                             </div>
                             <div className="column" id="location-contact">
                                 <h3>Location:</h3>
                                 <p>Oslo, Norway</p>
-                                <h3>Contact:</h3>
+                                <h3 id="contact">Contact:</h3>
                                 <p>Email: thomasjrye@gmail.com</p>
                             </div>
                         </div>
@@ -44,10 +44,11 @@ const Home = () => {
 
                     {/* Call to Action Section */}
                     <section className="cta">
-                        <h2>Let's Work Together!</h2>
+                        <h2>Let's Build Your AI Agent!</h2>
                         <p>
-                            Looking for a reliable and skilled developer for your next project? Feel free to reach out!
-                            I'm available for freelance, contract, and full-time work. Let's build something great together.
+                            Ready to automate your workflows with a custom AI agent? We design and deploy
+                            OpenClaw-powered assistants tailored to your business needs — from scheduling and
+                            email triage to complex multi-step automations. Book a free discovery call today.
                         </p>
                         <button 
                             onClick={() => window.location.href='https://calendly.com/thomasjrye/zoom-call'} 
@@ -59,41 +60,43 @@ const Home = () => {
                     <hr />
                     
                     {/* About Me Section */}
-                    <section className="about-me">
-                        <h2>About Me</h2>
+                    <section className="about-me" id="about-me">
+                        <h2>About Us</h2>
                         <p>
-                            Hi! I'm Thomas J. Rye, a passionate full-stack developer with over 3 years of experience
-                            in building and maintaining robust applications. I take pride in delivering solutions that
-                            meet client needs, scale efficiently, and are easy to maintain. 
+                            Oslo AI Agents is a boutique AI consultancy specialising in OpenClaw-powered personal
+                            and business AI assistants. We help teams and professionals in Oslo reclaim their time
+                            by putting intelligent automation to work — handling emails, calendars, research, and
+                            much more.
                         </p>
                         <p>
-                            I work with a range of modern technologies including React, Node.js, Python, and cloud services 
-                            like AWS and Azure. Whether you need a full-stack application, API integration, or cloud architecture, 
-                            I'm here to help turn your ideas into reality.
+                            Our founder brings over 3 years of full-stack development experience across React,
+                            Node.js, Python, and Azure cloud services. We pair that engineering rigour with the
+                            latest large language model tooling to deliver agents that are reliable, secure, and
+                            genuinely useful from day one.
                         </p>
                     </section>
 
                     <hr />
                     
                     {/* Services Section */}
-                    <section className="services">
-                        <h2>Services I Offer</h2>
+                    <section className="services" id="services">
+                        <h2>Services We Offer</h2>
                         <div className="service-list">
                             <div className="service-item">
-                                <h3>Web Development</h3>
-                                <p>Full-stack web applications using modern technologies and frameworks.</p>
+                                <h3>Personal AI Agent</h3>
+                                <p>A custom OpenClaw assistant that manages your inbox, calendar, and daily tasks — so you can focus on what matters.</p>
                             </div>
                             <div className="service-item">
-                                <h3>API Development</h3>
-                                <p>Building robust, scalable APIs for mobile and web applications.</p>
+                                <h3>Business Automation</h3>
+                                <p>End-to-end workflow automation powered by LLMs, integrated directly into your existing tools and data sources.</p>
                             </div>
                             <div className="service-item">
-                                <h3>Cloud Solutions</h3>
-                                <p>Designing and deploying cloud-based solutions on AWS, Azure, and more.</p>
+                                <h3>RAG & Knowledge Agents</h3>
+                                <p>Retrieval-augmented generation systems that let your team query internal documents and databases in plain language.</p>
                             </div>
                             <div className="service-item">
-                                <h3>DevOps & CI/CD</h3>
-                                <p>Automating deployments, monitoring, and scaling for seamless development workflows.</p>
+                                <h3>AI Strategy & Consulting</h3>
+                                <p>Hands-on guidance to identify the highest-value AI opportunities in your organisation and build a clear roadmap.</p>
                             </div>
                         </div>
                     </section>

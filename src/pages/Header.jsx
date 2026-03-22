@@ -6,12 +6,15 @@ const Header = () => (
     <header className='Header'>
       <nav>
         <ul className='header-menu'>
-          <b className='title-name'>Thomas J. Rye</b>
+          <b className='title-name'>Oslo AI Agents</b>
           <li>
-            <a href="https://thomasjrye.substack.com/">Articles</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <Link to="/">Home</Link>
+            <a href="#about-me">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
