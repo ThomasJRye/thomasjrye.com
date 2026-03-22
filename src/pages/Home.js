@@ -1,46 +1,98 @@
-import React from 'react';
 import './Home.css';
-import headshot from './images/HeadShot.jpg';
 
 const Home = () => {
     return (
         <div className="home-background">
             <div className="home-container">
                 <div className="home-text-container">
-                    {/* Personal Information Section */}
-                    <section className="personal-info">
-                        <img src={headshot} alt="Thomas J. Rye" className="headshot" />
-                        <h1 className="headline">Thomas J. Rye</h1>
-                        <p className="sub-headline">Fullstack-utvikler | Oslo, Norge</p>
-                        <div className="skills-location">
-                            <div className="column" id="skills">
-                                <h3>Teknologier jeg spesialiserer meg i:</h3>
-                                <p>
-                                    Python, JavaScript, PHP, Rust | React, Laravel, FastAPI, Node | Azure-sertifisert, AWS
-                                </p>
+
+                    {/* SetupClaw Style Offering Section */}
+                    <section className="setup-offering">
+                        <div className="setup-header">
+                            <h2>OpenClaw Oppsett</h2>
+                            <p className="setup-tagline">Jeg ruller ut og vedlikeholder teamets AI-assistent — sikkert, profesjonelt og nøkkelferdig.</p>
+                        </div>
+
+                        <p>
+                            Nøkkelferdig OpenClaw-utrulling for gründere og ledergrupper. Ingen teknisk kunnskap kreves — jeghåndterer installasjon, sikkerhet, integrasjoner og løpende vedlikehold slik at du kan fokusere på å drive virksomheten din. Bygget for team med 4–50+ ansatte der ledelsen trenger mer handlekraft uten å skape nye sikkerhetsrisikoer.
+                        </p>
+
+                        <div className="quote-box">
+                            <p>“Genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently.”</p>
+                            <span className="quote-author">— Andrej Karpathy, tidl. direktør for AI hos Tesla</span>
+                        </div>
+
+                        <h3>Integreres med</h3>
+                        <div className="integrations-grid">
+                            <div className="integration-item">Gmail</div>
+                            <div className="integration-item">Google Calendar</div>
+                            <div className="integration-item">Outlook</div>
+                            <div className="integration-item">Slack</div>
+                            <div className="integration-item">iMessage</div>
+                            <div className="integration-item">WhatsApp</div>
+                            <div className="integration-item">Notion</div>
+                            <div className="integration-item">HubSpot</div>
+                            <div className="integration-item">Salesforce</div>
+                            <div className="integration-item">Zoom</div>
+                            <div className="integration-item">GitHub</div>
+                            <div className="integration-item">+ 10 000 fler</div>
+                        </div>
+
+                        <button 
+                            onClick={() => window.location.href='https://calendly.com/thomasjrye/zoom-call'} 
+                            className="schedule-button"
+                            style={{display: 'block', margin: '30px auto'}}>
+                            Book en gratis 15-min strategisamtale →
+                        </button>
+
+                        <div className="feature-grid">
+                            <div className="feature-card">
+                                <h3>Alltid på, alltid i arbeid</h3>
+                                <p>I motsetning til ChatGPT, kjører din OpenClaw-agent 24/7 på dedikert infrastruktur. Den våkner hvert 30. minutt, sjekker e-post, kalender og verktøy — og tar handling uten at du trenger å spørre.</p>
                             </div>
-                            <div className="column" id="location-contact">
-                                <h3>Lokasjon:</h3>
-                                <p>Oslo, Norge</p>
-                                <h3>Kontakt:</h3>
-                                <p>thomasjrye@gmail.com, github.com/ThomasJRye, thomasjrye.com, LinkedIn</p>
+                            <div className="feature-card">
+                                <h3>Sikkerhet først</h3>
+                                <p>Din bot ser aldri rå legitimasjon. Jeg bruker Composio som et sikkerhetslag — alle tilganger administreres separat med full revisjonslogg og umiddelbar tilbakekalling av tilgang.</p>
                             </div>
                         </div>
-                    </section>
 
-                    <hr />
-
-                    {/* Certifications Section */}
-                    <section className="certifications">
-                        <h2>Sertifiseringer</h2>
-                        <div className="certification-item">
-                            <img src="https://img.shields.io/badge/Azure%20Fundamentals-AZ--900-blue" alt="Azure Fundamentals Badge" className="certification-badge" />
-                            <p>Microsoft-sertifisert: Azure Fundamentals</p>
-                            <a href="https://www.credly.com/badges/2ECC98640B0D66B7" target="_blank" rel="noopener noreferrer">Se Sertifisering</a>
+                        <h3>Slik fungerer det</h3>
+                        <div className="steps-container">
+                            <div className="step">
+                                <div className="step-number">1</div>
+                                <div>
+                                    <h4>Oppstartsmøte</h4>
+                                    <p>Jeg diskuterer dine mål, kartlegger integrasjoner og planlegger agentens arbeidsflyt. Du forteller oss hva som skal automatiseres — jegfikser resten.</p>
+                                </div>
+                            </div>
+                            <div className="step">
+                                <div className="step-number">2</div>
+                                <div>
+                                    <h4>Utrulling & Sikring</h4>
+                                    <p>Jeg setter opp infrastruktur, installerer OpenClaw, konfigurerer sikkerhet og kobler til dine verktøy. Du er i gang samme dag.</p>
+                                </div>
+                            </div>
+                            <div className="step">
+                                <div className="step-number">3</div>
+                                <div>
+                                    <h4>14-dagers Hypercare</h4>
+                                    <p>Jeg finjusterer arbeidsflyter, utvider rettigheter etter hvert som du bygger tillit, og sørger for at alt ruller sømløst.</p>
+                                </div>
+                            </div>
                         </div>
-                    </section>
 
-                    <hr />
+                        <h3>Pakker</h3>
+                        <div className="pricing-grid">
+                            <div className="pricing-card recommended">
+                                <h4>Hosted Setup</h4>
+                                <p>Full service — jegdrifter, sikrer og gir 14 dagers hypercare.</p>
+                            </div>
+                            <div className="pricing-card recommended">
+                                <h4>Mac Mini Setup</h4>
+                                <p>Lokal maskinvare for iMessage-integrasjon eller full kontroll.</p>
+                            </div>
+                           
+                        </div>
 
                     {/* Call to Action Section */}
                     <section className="cta">
@@ -55,43 +107,26 @@ const Home = () => {
                             Avtal et møte
                         </button>                    
                     </section>
-
-                    <hr />
                     
-                    {/* About Me Section */}
-                    <section className="about-me">
-                        <h2>Om meg</h2>
-                        <p>
-                            Erfaren programvareutvikler med over 3 års fullstack-erfaring. Jeg har bygget produksjonsinfrastruktur i Microsoft Azure og ledet utviklingsteam. Vant til å jobbe selvstendig og i samarbeidsmiljøer for å løse nye utfordringer. Jobber for tiden hos Iterate, Oslos ledende produktutviklingskonsulentselskap.
-                        </p>
-                        <p>
-                            Jeg jobber med en rekke moderne teknologier inkludert React, Node.js, Python og skytjenester som AWS og Azure. Enten du trenger en fullstack-applikasjon, API-integrasjon eller skyarkitektur, er jeg her for å hjelpe deg med å gjøre ideene dine til virkelighet.
-                        </p>
-                    </section>
-
-                    <hr />
-                    
-                    {/* Services Section */}
-                    <section className="services">
-                        <h2>Tjenester jeg tilbyr</h2>
-                        <div className="service-list">
-                            <div className="service-item">
-                                <h3>Webutvikling</h3>
-                                <p>Fullstack webapplikasjoner med moderne teknologier og rammeverk.</p>
+                        <div className="faq-container">
+                            <h3>Ofte stilte spørsmål</h3>
+                            <div className="faq-item">
+                                <h4>Hva er OpenClaw?</h4>
+                                <p>En åpen kildekode AI-assistent som kjører 24/7. Den kan sortere e-post, booke møter, skrive utkast og automatisere arbeidsflyter proaktivt.</p>
                             </div>
-                            <div className="service-item">
-                                <h3>API-utvikling</h3>
-                                <p>Bygging av robuste, skalerbare API-er for mobil- og webapplikasjoner.</p>
+                            <div className="faq-item">
+                                <h4>Må jeg være teknisk?</h4>
+                                <p>Overhodet ikke. Jeg håndterer alt det tekniske. Du snakker med din bot via Telegram eller Slack, akkurat som å sende tekstmelding til en assistent.</p>
                             </div>
-                            <div className="service-item">
-                                <h3>Skyløsninger</h3>
-                                <p>Design og distribusjon av skybaserte løsninger på AWS, Azure og mer.</p>
-                            </div>
-                            <div className="service-item">
-                                <h3>DevOps & CI/CD</h3>
-                                <p>Automatisering av distribusjoner, overvåking og skalering for sømløse utviklingsarbeidsflyter.</p>
+                            <div className="faq-item">
+                                <h4>Er det trygt?</h4>
+                                <p>Sikkerhet kan være en utfordring med OpenClaw. Sammen vil vi gå gjennom fallgroper og risikoer. Jeg bruker sandboxing, brannmurer og sikkerhets-middleware som sørger for at boten aldri ser dine rå passord og at du har full kontroll over tilganger.</p>
                             </div>
                         </div>
+
+                        <p style={{textAlign: 'center', marginTop: '40px', fontWeight: 'bold'}}>
+                            100% fornøydgaranti. Hvis du ikke er fornøyd med oppsettet, refunderer jeg hele beløpet — uten spørsmål.
+                        </p>
                     </section>
                     
                 </div>
