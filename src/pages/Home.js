@@ -42,7 +42,7 @@ const Home = () => {
                             onClick={() => window.location.href='https://calendly.com/thomasjrye/zoom-call'} 
                             className="schedule-button"
                             style={{display: 'block', margin: '30px auto'}}>
-                            Book en gratis 15-min strategisamtale →
+                            Book et møte!
                         </button>
 
                         <div className="feature-grid">
@@ -85,7 +85,7 @@ const Home = () => {
                         <div className="pricing-grid">
                             <div className="pricing-card recommended">
                                 <h4>Hosted Setup</h4>
-                                <p>Full service — jegdrifter, sikrer og gir 14 dagers hypercare.</p>
+                                <p>Full service — jeg drifter og sikrer.</p>
                             </div>
                             <div className="pricing-card recommended">
                                 <h4>Mac Mini Setup</h4>
@@ -94,25 +94,12 @@ const Home = () => {
                            
                         </div>
 
-                    {/* Call to Action Section */}
-                    <section className="cta">
-                        <h2>La oss jobbe sammen!</h2>
-                        <p>
-                            Ser du etter en pålitelig og dyktig utvikler for ditt neste prosjekt? Ta gjerne kontakt!
-                            Jeg er tilgjengelig for frilans, kontrakt og fulltidsarbeid. La oss bygge noe fantastisk sammen.
-                        </p>
-                        <button 
-                            onClick={() => window.location.href='https://calendly.com/thomasjrye/zoom-call'} 
-                            className="schedule-button">
-                            Avtal et møte
-                        </button>                    
-                    </section>
                     
                         <div className="faq-container">
                             <h3>Ofte stilte spørsmål</h3>
                             <div className="faq-item">
                                 <h4>Hva er OpenClaw?</h4>
-                                <p>En åpen kildekode AI-assistent som kjører 24/7. Den kan sortere e-post, booke møter, skrive utkast og automatisere arbeidsflyter proaktivt.</p>
+                                <p>En open-source AI-assistent som kjører 24/7. Den kan sortere e-post, booke møter, skrive utkast og automatisere arbeidsflyter proaktivt.</p>
                             </div>
                             <div className="faq-item">
                                 <h4>Må jeg være teknisk?</h4>

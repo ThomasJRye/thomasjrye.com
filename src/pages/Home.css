@@ -80,13 +80,13 @@ a:hover {
 }
 
 .schedule-button:hover {
-    background-color: #f0f0f0; 
-    border-color: #999; 
+    background-color: #3498db; 
+    border-color: #1a7cbd; 
 }
 
 .schedule-button:active {
-    background-color: #e0e0e0; 
-    border-color: #888; 
+    background-color: #81afce; 
+    border-color: #425968; 
 }
 
 .comparison-table-container {
