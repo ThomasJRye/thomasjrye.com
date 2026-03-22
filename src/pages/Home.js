@@ -67,6 +67,49 @@ const Home = () => {
                         <p>
                             Jeg jobber med en rekke moderne teknologier inkludert React, Node.js, Python og skytjenester som AWS og Azure. Enten du trenger en fullstack-applikasjon, API-integrasjon eller skyarkitektur, er jeg her for å hjelpe deg med å gjøre ideene dine til virkelighet.
                         </p>
+                    
+                    </section>
+
+                    <hr />
+                    
+                    {/* OpenClaw Services Section */}
+                    <section className="services ai-services">
+                        <h2>AI-Assistent Tjenester</h2>
+                        <p style={{ marginBottom: '20px' }}>
+                            Jeg tilbyr profesjonell oppsett og vedlikehold av personlige AI-assistenter drevet av OpenClaw — skreddersydd for bedrifter og fagfolk i Norge.
+                        </p>
+                        
+                        <div className="service-list">
+                            <div className="service-item" style={{ marginBottom: '25px', padding: '15px', backgroundColor: 'rgba(255, 255, 255, 0.1)', borderRadius: '8px' }}>
+                                <h3 style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.3)', paddingBottom: '10px', marginBottom: '15px' }}>"Kom i gang" — kr 4 000</h3>
+                                <p style={{ margin: '5px 0' }}>• Behovsvurdering og konsultasjon</p>
+                                <p style={{ margin: '5px 0' }}>• OpenClaw-installasjon på din infrastruktur</p>
+                                <p style={{ margin: '5px 0' }}>• Oppsett av én meldingskanal (Telegram, Discord, e.l.)</p>
+                                <p style={{ margin: '5px 0' }}>• Grunnleggende opplæring (1 time)</p>
+                            </div>
+
+                            <div className="service-item" style={{ marginBottom: '25px', padding: '15px', backgroundColor: 'rgba(255, 255, 255, 0.1)', borderRadius: '8px' }}>
+                                <h3 style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.3)', paddingBottom: '10px', marginBottom: '15px' }}>"Profesjonell" — kr 12 000</h3>
+                                <p style={{ margin: '5px 0' }}>• Alt i "Kom i gang"</p>
+                                <p style={{ margin: '5px 0' }}>• Tilpasset skill-utvikling for din arbeidsflyt</p>
+                                <p style={{ margin: '5px 0' }}>• 3 måneder vedlikehold inkludert</p>
+                                <p style={{ margin: '5px 0' }}>• Prioritert support</p>
+                            </div>
+
+                            <div className="service-item" style={{ marginBottom: '25px', padding: '15px', backgroundColor: 'rgba(255, 255, 255, 0.1)', borderRadius: '8px' }}>
+                                <h3 style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.3)', paddingBottom: '10px', marginBottom: '15px' }}>"Bedrift" — fra kr 30 000</h3>
+                                <p style={{ margin: '5px 0' }}>• Dybdeanalyse av arbeidsflyt og AI-strategi</p>
+                                <p style={{ margin: '5px 0' }}>• Flere skreddersydde integrasjoner</p>
+                                <p style={{ margin: '5px 0' }}>• Sikkerhetskonfigurasjon</p>
+                                <p style={{ margin: '5px 0' }}>• Teamopplæring på stedet</p>
+                                <p style={{ margin: '5px 0' }}>• Løpende strategisk rådgivning</p>
+                            </div>
+                        </div>
+
+                        <div className="cta" style={{ marginTop: '30px', textAlign: 'center' }}>
+                            <p style={{ fontSize: '1.1em', marginBottom: '15px' }}>Ta kontakt for en uforpliktende prat</p>
+                            <a href="mailto:thomasjrye@gmail.com" className="schedule-button" style={{ display: 'inline-block' }}>thomasjrye@gmail.com</a>
+                        </div>
                     </section>
 
                     <hr />
