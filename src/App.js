@@ -9,13 +9,10 @@ import React, { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
-  useLocation
+  Routes
 } from "react-router-dom";
 
 const App = () => {
-  const location = useLocation();
-
   useEffect(() => {
     if (window.location.host === 'thomasjrye.com') {
       window.location.replace('https://www.thomasjrye.com');

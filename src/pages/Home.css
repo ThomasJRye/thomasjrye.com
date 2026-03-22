@@ -45,35 +45,35 @@
 
 }
 
-section {
+.home-container section {
     margin: 0 auto;
     padding: 1rem;
 }
 
-h1 {
+.home-container h1 {
     margin-bottom: 20px;
     color: #FFF; /* Ensure heading is visible */
 }
 
-h2, h3, h4 {
+.home-container h2, .home-container h3, .home-container h4 {
     color: #FFF; /* Make all headings white for readability */
     margin-bottom: 10px;
 }
 
-.personal-info, .experience, .education, .skills, .languages {
+.home-container .personal-info, .home-container .experience, .home-container .education, .home-container .skills, .home-container .languages {
     margin-bottom: 20px;
 }
 
-.job, .edu {
+.home-container .job, .home-container .edu {
     margin-bottom: 15px;
 }
 
-a {
+.home-container a {
     color: #3498db;
     text-decoration: none;
 }
 
-a:hover {
+.home-container a:hover {
     text-decoration: underline;
 }
 

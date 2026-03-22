@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
                         we provide end-to-end solutions that put a powerful, private AI agent to work for you.
                     </p>
                     <div className='contact-container'>
-                        <a href="/contact" className='contact-button'>Book a Free Consultation</a>
+                        <Link to="/contact" className='contact-button'>Book a Free Consultation</Link>
                     </div>
                 </div>
             </div>
