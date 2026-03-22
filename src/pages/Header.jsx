@@ -1,21 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './header.css';
+import './Header.css';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-    <header className='Header'>
-      <nav>
-        <ul className='header-menu'>
-          <b className='title-name'>Thomas J. Rye</b>
-          <li>
-            <a href="https://thomasjrye.substack.com/">Articles</a>
-          </li>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
+    <div className='header-container'>
+        <div className='header'>
+            <div className='name-container'>
+                <NavLink to="/" className="name">Oslo AI Agents</NavLink>
+            </div>
+            <div className='navbar-container'>
+                <NavLink to="/" className={({ isActive }) => "navbar-item" + (isActive ? " active" : "")}>Home</NavLink>
+                <NavLink to="/services" className={({ isActive }) => "navbar-item" + (isActive ? " active" : "")}>Services</NavLink>
+                <NavLink to="/about" className={({ isActive }) => "navbar-item" + (isActive ? " active" : "")}>About</NavLink>
+                <NavLink to="/contact" className={({ isActive }) => "navbar-item" + (isActive ? " active" : "")}>Contact</NavLink>
+            </div>
+        </div>
+    </div>
+);
 
-  export default Header;
+export default Header;

@@ -2,6 +2,9 @@ import './App.css';
 import Home from './pages/Home.js';
 import Footer from './pages/Footer.jsx';
 import Header from './pages/Header.jsx';
+import Services from './pages/Services.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
 import React, { useEffect } from 'react';
 import {
   BrowserRouter as Router,
@@ -16,7 +19,7 @@ const App = () => {
 
   useEffect(() => {
     if (window.location.host === 'thomasjrye.com') {
-      window.location.replace('https://www.thomasjrye.com');
+      window.location.replace('https://www.osloai.no');
     }
   }, []);
   
@@ -25,8 +28,11 @@ const App = () => {
       <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      {location.pathname !== '/resume' && <Footer />}
+      <Footer />
     </div>
   );
 }
