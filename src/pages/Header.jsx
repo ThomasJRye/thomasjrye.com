@@ -8,10 +8,10 @@ const Header = () => (
         <ul className='header-menu'>
           <b className='title-name'>Thomas J. Rye</b>
           <li>
-            <a href="https://thomasjrye.substack.com/">Articles</a>
+            <a href="https://thomasjrye.substack.com/">Artikler</a>
           </li>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Hjem</Link>
           </li>
         </ul>
       </nav>
