@@ -10,20 +10,20 @@ const Home = () => {
                     {/* Personal Information Section */}
                     <section className="personal-info">
                         <img src={headshot} alt="Thomas J. Rye" className="headshot" />
-                        <h1 className="headline">Full-Stack Developer</h1>
-                        <p className="sub-headline">Building modern, scalable, and efficient solutions</p>
+                        <h1 className="headline">Thomas J. Rye</h1>
+                        <p className="sub-headline">Full-Stack Developer | Oslo, Norway</p>
                         <div className="skills-location">
                             <div className="column" id="skills">
                                 <h3>Technologies I specialize in:</h3>
                                 <p>
-                                    JS, React, Node.js, Python, Azure
+                                    Python, JavaScript, PHP, Rust | React, Laravel, FastAPI, Node | Azure Certified, AWS
                                 </p>
                             </div>
                             <div className="column" id="location-contact">
                                 <h3>Location:</h3>
                                 <p>Oslo, Norway</p>
                                 <h3>Contact:</h3>
-                                <p>Email: thomasjrye@gmail.com</p>
+                                <p>thomasjrye@gmail.com, github.com/ThomasJRye, thomasjrye.com, LinkedIn</p>
                             </div>
                         </div>
                     </section>
@@ -62,14 +62,10 @@ const Home = () => {
                     <section className="about-me">
                         <h2>About Me</h2>
                         <p>
-                            Hi! I'm Thomas J. Rye, a passionate full-stack developer with over 3 years of experience
-                            in building and maintaining robust applications. I take pride in delivering solutions that
-                            meet client needs, scale efficiently, and are easy to maintain. 
+                            Experienced software developer with over 3 years of full-stack hands-on experience. I've created production cloud infrastructure in Microsoft Azure and managed development teams.
                         </p>
                         <p>
-                            I work with a range of modern technologies including React, Node.js, Python, and cloud services 
-                            like AWS and Azure. Whether you need a full-stack application, API integration, or cloud architecture, 
-                            I'm here to help turn your ideas into reality.
+                            Adept at working independently and in collaborative environments to tackle new challenges. Currently at Iterate, Oslo's leading product development consultancy.
                         </p>
                     </section>
 
